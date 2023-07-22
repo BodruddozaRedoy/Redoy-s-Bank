@@ -1,12 +1,15 @@
+body{
+    height: 100vh;
+}
 section{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 300px 0;
+    padding-top: 300px;
 }
 #login-area{
     background-color: rgb(53, 0, 102);
-    width: 50%;
+    /* width: 50%; */
     padding: 50px 100px;
     border-radius: 10px;
 
@@ -22,3 +25,59 @@ section{
 .submit-area h4{
     color: #fff;
 }
+#sec-2{
+    padding-top: -300px;
+
+}
+
+#transaction-area{
+    display: none;
+    background-color: rgb(53, 0, 102);
+    width: 50%;
+    padding: 50px 10px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    top: -300px;
+    left: 17px;
+}
+#transaction-area h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.transaction-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deposit, .withdraw, .balance{
+    background-color: #fff;
+    color: #000;
+    margin: 5px 40px;
+    text-align: center;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+/* 
+#input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.input-deposit{
+    margin: 10px;
+} */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form div{
+    margin: 10px 50px;
+}
+form button{
+    margin-top: 10px;
+}
+

@@ -14,7 +14,7 @@
     <title>Redoy's Bank</title>
   </head>
   <body>
-    <section>
+    <section id="sec-1">
     <div id="login-area">
       <h1 class="bank-title">Welcome to Redoy's Bank</h1>
       <div class="submit-area">
@@ -23,9 +23,48 @@
         <br>
         <input type="password" class="form-control" placeholder="Enter your password"/>
         <br>
-        <button class="btn btn-success">Login</button>
+        <button id="login" class="btn btn-success">Login</button>
       </div>
     </div>
+</section>
+
+<section >
+    <div id="transaction-area">
+        <h1>Transaction Area
+        </h1>
+        <div class="transaction-name">
+          <div class="deposit">
+            <h5>Deposit</h5>
+            <h2>$00</h2>
+          </div>
+          <div class="withdraw">
+            <h5>Withdraw</h5>
+            <h2>$00</h2>
+          </div>
+          <div class="balance">
+            <h5>Balance</h5>
+            <h2>$1200</h2>
+          </div>
+        </div>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Deposit</label>
+            <input  class="form-control"> 
+          <button class="btn btn-primary">Submit</button>
+
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Withdraw</label>
+            <input  class="form-control"> 
+          <button class="btn btn-primary">Submit</button>
+
+          </div>
+        </form>
+      </div>
+        
+    
+    
 </section>
 
     <script
@@ -34,5 +73,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
+
+<div id="input-area">
+  <div class="input-deposit">
+    <h4>Deposit</h4>
+    <input type="number" placeholder="Enter your amount">
+    <button class="btn btn-success"> Deposit</button>
+  </div>
+  <div class="input-withdraw">
+    <h4>Withdraw</h4>
+    <input type="number" placeholder="Enter your amount">
+  </div>
+</div>
