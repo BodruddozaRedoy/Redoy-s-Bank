@@ -1,0 +1,24 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+#login-area{
+    background-color: rgb(53, 0, 102);
+    width: 50%;
+    padding: 50px 100px;
+    border-radius: 10px;
+
+
+}
+.bank-title{
+    text-align: center;
+    color: #fff;
+}
+.submit-area{
+
+}
+.submit-area h4{
+    color: #fff;
+}
