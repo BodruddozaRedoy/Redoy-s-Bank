@@ -54,8 +54,9 @@ section{
     background-color: #fff;
     color: #000;
     margin: 5px 40px;
-    text-align: center;
-    padding: 10px 50px;
+    /* text-align: center; */
+    width: 300px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 /* 
@@ -69,15 +70,15 @@ section{
     margin: 10px;
 } */
 
-form{
+#form-style{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-form div{
+#form-style div{
     margin: 10px 50px;
 }
-form button{
+#form-style button{
     margin-top: 10px;
 }
 
